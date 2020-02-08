@@ -1,0 +1,20 @@
+.player-wrapper {
+  position: relative;
+  background-color: black;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pending {
+  position: absolute;
+  color: lightsteelblue;
+  top: 0;
+  left: 80%;
+  padding: 5pt;
+  width: 20%;
+  height: 90%;
+}
